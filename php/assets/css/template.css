@@ -1,0 +1,33 @@
+.container-fluid {
+	width: 95%;
+	margin: 0px auto;
+}
+
+#hd {
+	border-bottom: solid 1px #eee;
+	margin-bottom: 20px;
+}
+
+#hd .logo:link,
+#hd .logo:visited {
+	display: block;
+	height: 72px;
+	background: url("../img/nextplus_logo.png") no-repeat left center;
+	text-indent: -2000px;
+	overflow: hidden;
+}
+
+#hd .name {
+	padding-top: 20px;
+	font-size: 18px;
+}
+
+#hd .today {
+	padding: 26px 0px;
+}
+.editable-click, a.editable-click, a.editable-click:hover {
+	border: 0px;
+}
+
+
+

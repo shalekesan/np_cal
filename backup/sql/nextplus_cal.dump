@@ -1,0 +1,53 @@
+-- MySQL dump 10.13  Distrib 5.5.19, for Win64 (x86)
+--
+-- Host: localhost    Database: nextplus_cal
+-- ------------------------------------------------------
+-- Server version	5.5.19
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `event`
+--
+
+DROP TABLE IF EXISTS `event`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `event` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) DEFAULT NULL,
+  `date` date DEFAULT NULL,
+  `notes` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=75 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `event`
+--
+
+LOCK TABLES `event` WRITE;
+/*!40000 ALTER TABLE `event` DISABLE KEYS */;
+INSERT INTO `event` VALUES (40,'Harris Wang','2013-07-29','sample'),(48,'Harris Wang','2013-07-30','sample'),(49,'Harris Wang','2013-07-31','sample'),(50,'Harris Wang','2013-08-01','sample'),(51,'Harris Wang','2013-08-02','sample'),(52,'Harris Wang','2013-08-03','sample'),(53,'Harris Wang','2013-08-04','sample'),(54,'Harris Wang','2013-08-05','sample'),(55,'Danile Shi','2013-07-29','sample'),(56,'Danile Shi','2013-08-02','sample'),(57,'Lina Huang','2013-07-29','sample'),(58,'Ted','2013-08-01','sample'),(59,'Ted','2013-08-02','sample'),(60,'Ted','2013-08-03','sample'),(61,'Anne','2013-08-02','sample'),(62,'Ted','2013-09-05','sample'),(63,'Ted','2013-09-06','sample'),(64,'Ted','2013-07-29','sample123'),(65,'Ted','2013-07-28','sample'),(66,'Ted','2013-07-30','sample'),(67,'Roger','2013-08-03','sample'),(68,'Anne','2013-08-04','sample'),(69,'Sharon','2013-08-04','sample'),(70,'Roger','2013-07-29','sample'),(71,'Anne','2013-07-29','sample'),(72,'Roger','2013-07-30','123123'),(73,'Renee','2013-07-29','写东西。'),(74,'Renee','2013-07-30','一定要完成啊。');
+/*!40000 ALTER TABLE `event` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2013-08-02  1:38:18

@@ -1,0 +1,32 @@
+body {
+	font-family: Arial, "微软雅黑", "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.bg {
+	background-color: #ddd;
+}
+
+.bd {
+	border: solid 1px #ff9696 !important;
+}
+
+.inline {
+	display: inline;
+}
+
+.lf {
+	text-align: left;
+}
+
+.ct {
+	text-align: center;
+}
+
+.rh {
+	text-align: right;
+}
+
+.rel {
+	position: relative;
+}
